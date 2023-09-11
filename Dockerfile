@@ -1,6 +1,8 @@
 FROM python:3.11-slim-bookworm as base
 MAINTAINER Ashton Honnecke <ashton@pixelstub.com>
 
+# This is all just copied, need to tweak it
+
 ENV LC_ALL C.UTF-8
 ENV LANG C.UTF-8
 ENV AWS_DEFAULT_REGION us-west-2
