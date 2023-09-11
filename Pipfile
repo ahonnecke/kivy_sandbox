@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+kivy = {extras = ["base"], version = "*"}
+kivy-examples = "*"
+
+[dev-packages]
+black = "*"
+ruff = "*"
+pytest = "*"
+pytest-asyncio = "*"
+bump-pydantic = "*"
+polyfactory = "*"
+pytest-cov = "*"
+
+[requires]
+python_version = "3.11"
